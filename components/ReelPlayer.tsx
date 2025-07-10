@@ -4,14 +4,16 @@ import React from "react";
 
 const ReelPlayer = ({ src }: { src: string }) => {
   return (
-    <video
-      src={src}
-      className="w-full h-screen object-cover"
-      controls
-      autoPlay
-      loop
-      muted
-    />
+    <div className="w-full h-screen flex justify-center items-center bg-black overflow-hidden">
+      <video
+        src={src}
+        className="h-full object-cover"
+        controls
+        autoPlay
+        loop
+        muted
+      />
+    </div>
   );
 };
 
