@@ -11,7 +11,7 @@ const ReelPlayer = ({ src }: { src: string }) => {
         controls
         autoPlay
         loop
-        mute
+        muted
       />
     </div>
   );
