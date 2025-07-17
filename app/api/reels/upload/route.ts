@@ -25,7 +25,7 @@ export async function POST(req: Request) {
 
   // In real app, save this data to DB
   console.log("Saved file at:", filePath);
-  console.log("User:", userId, "Caption:", caption this);
+  console.log("User:", userId, "Caption:", caption);
 
   return NextResponse.json({ message: "Uploaded", file: `/uploads/${filename}` });
 }
