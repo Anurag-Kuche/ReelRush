@@ -23,7 +23,7 @@ export async function POST(req: Request) {
   const filePath = path.join(uploadDir, filename);
   await writeFile(filePath, buffer);
 
-  // In real app, save this data to DB
+  
   console.log("Saved file at:", filePath);
   console.log("User:", userId, "Caption:", caption);
 
