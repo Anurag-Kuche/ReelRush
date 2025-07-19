@@ -47,7 +47,7 @@ const ReelPlayer = ({ src }: { src: string }) => {
             {liked ? <HeartIcon fill="currentColor" className="w-6 h-6" /> : <Heart className="w-6 h-6" />}
           </button>
 
-          {/* Comment Button + Modal */}
+         
           <Dialog>
             <DialogTrigger asChild>
               <button className="hover:scale-110 transition-transform">
@@ -63,7 +63,7 @@ const ReelPlayer = ({ src }: { src: string }) => {
                 <p><strong>@anurag:</strong> Awesome work!</p>
                 <p><strong>@coder:</strong> Loved this one 💯</p>
                 <p><strong>@dev:</strong> Waiting for the next!</p>
-                {/* Add as many static comments as you want */}
+               
               </div>
             </DialogContent>
           </Dialog>
