@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef } from "react";
 import ReelPlayer from "./ReelPlayer";
-//reels in 
+//reels in the const
 const reels = ["/reels/sample1.mp4", "/reels/sample1.mp4"];
 
 const ReelFeed = () => {
